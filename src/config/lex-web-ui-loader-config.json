@@ -1,21 +1,21 @@
 {
   "cognito": {
-    "poolId": "us-east-1:389f9063-82a0-4a8c-bdc3-3bbb4c3d36d0",
+    "poolId": "us-east-1:97c8814b-d6d4-4ae4-bb67-411a81707c24",
     "appUserPoolClientId": "",
     "appUserPoolName": "",
     "appDomainName": "",
     "appUserPoolIdentityProvider": ""
   },
   "lex": {
-    "botName": "OrderFlowers",
-    "botAlias": "$LATEST",
-    "initialText": "You can ask me for help ordering flowers. Just type \"Buy flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Buy Flowers' to get started.",
+    "botName": "GetUserDetails",
+    "botAlias": "CoP",
+    "initialText": "Hello, I'm SSBot!",
+    "initialSpeechInstruction": "Say 'Screening' to get started.",
     "reInitSessionAttributesOnRestart": false
   },
   "ui": {
     "parentOrigin": "",
-    "toolbarTitle": "Order Flowers",
+    "toolbarTitle": "Pre Qualification",
     "toolbarLogo": "",
     "enableLogin": false,
     "AllowSuperDangerousHTMLInMessage": false,

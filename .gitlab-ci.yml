@@ -25,6 +25,7 @@ deploy prod:
   stage: deploy
   only:
     - tags
+    
   script:
     - pip install awscli
     - aws s3 sync ./dist s3://aws-lambda-user-bot-app
